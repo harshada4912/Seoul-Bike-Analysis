@@ -71,10 +71,15 @@ These slicers make the dashboard fully **interactive** and **user-friendly** for
 ### **Page 1: Overview Dashboard**
 - 📈 Line Chart – Daily Rentals Over Time  
 - 🌤️ Column Chart – Rentals by Month
-- 📅 Bar Chart – Sum of Bikes by Functioning Day  
+- 📅 Bar Chart – Sum of Bikes by Functioning Day 
 - ☀️ Scatter Plot – Total Bikes by Temperature (°C) 
-- 💧 Pie Chart –Count of Month by Seasons
+- 💧Donut Chart –Count of Month by Seasons
 - 🕓 Combo Chart – Rentals & Temperature by Month – Combo Chart
 - 
 
 ---
+### **Page 2: Analysis**
+- 💧 Pie chart-Count of Month by Seasons
+- 📈 Line chart-Average of Rented Bike Count by Hour
+- 📅 Bar chart-Average of Rented Bike Count by Day
+- 📅 Stacked bar chart-Top 10 Busiest Hours by Rentals
