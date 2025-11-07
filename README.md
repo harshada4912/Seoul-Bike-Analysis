@@ -30,7 +30,6 @@ It provides insights into how weather conditions, temperature, humidity, and tim
 
 
 
-
 ## 🧹 Data Cleaning Summary (Power Query Steps)  
 
 | Step | Description |
@@ -53,3 +52,29 @@ It provides insights into how weather conditions, temperature, humidity, and tim
 | **Average Wind Speed (m/s)**           | Mean wind speed recorded during rentals               | `AVERAGE(Wind_speed(m/s))`                                                                |
 | **Total Rentals in Peak Hour**         | Number of rentals during the hour with highest demand | `MAXX(SUMMARIZE(SeoulBike, [Hour], "Total", SUM(SeoulBike[Rented_Bike_Count])), [Total])` |
 
+
+
+## 🧭 Filters and Slicers Used  
+
+| Filter | Description |
+|---------|-------------|
+| Season | Filter data by season |
+| Month | Filter by Month_Name |
+| Functioning Day | Filter by operational status |
+
+These slicers make the dashboard fully **interactive** and **user-friendly** for deeper insights.
+
+
+
+## 📊 Dashboard Visuals  
+
+### **Page 1: Overview Dashboard**
+- 📈 Line Chart – Daily Rentals Over Time  
+- 🌤️ Column Chart – Rentals by Month
+- 📅 Bar Chart – Sum of Bikes by Functioning Day  
+- ☀️ Scatter Plot – Total Bikes by Temperature (°C) 
+- 💧 Pie Chart –Count of Month by Seasons
+- 🕓 Combo Chart – Rentals & Temperature by Month – Combo Chart
+- 
+
+---
