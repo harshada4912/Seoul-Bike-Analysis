@@ -1,3 +1,5 @@
+
+
 ## 🚴‍♂️ Bike Rental Analysis Dashboard
 ## 📌 About the Project
 
@@ -20,15 +22,20 @@ It provides insights into how weather conditions, temperature, humidity, and tim
 | Hour | Hour of the day (0–23) |
 | Temperature_C | Air temperature (°C) |
 | Humidity | Relative humidity (%) |
-| Wind_Speed_mps | Wind speed (m/s) |
-| Visibility_10m | Visibility measured in 10 meters |
 | DewPoint_C | Dew point temperature (°C) |
 | Rainfall_mm | Rainfall in millimeters |
 | Season | Season of the year (Winter, Spring, Summer, Autumn) |
-| Holiday | Indicates if the day was a holiday |
-| Functioning_Day | Whether the rental system was operational (Yes/No) |
-| Day_Name | Extracted day name from Date |
-| Month_Name | Extracted month name from Date |
-| Year | Extracted year |
-| Weekday_Weekend | Classified as Weekday or Weekend |
 
+
+
+
+
+
+## 🧹 Data Cleaning Summary (Power Query Steps)  
+
+| Step | Description |
+|------|-------------|
+| 1 | Imported CSV dataset into Power BI |
+| 2 | Removed duplicates, blanks, and error rows |
+| 3 | Added calculated columns: Day_Name, Month_Name, Year, Weekday_Weekend |
+| 4 | Fixed data types for all fields |
