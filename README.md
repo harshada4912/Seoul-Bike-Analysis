@@ -39,3 +39,17 @@ It provides insights into how weather conditions, temperature, humidity, and tim
 | 2 | Removed duplicates, blanks, and error rows |
 | 3 | Added calculated columns: Day_Name, Month_Name, Year, Weekday_Weekend |
 | 4 | Fixed data types for all fields |
+
+
+
+💡 Key KPIs (Performance Indicators)
+
+
+| **KPI**                                | **Description**                                       | **Formula / DAX Expression**                                                              |
+| -------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **Total Precipitation (mm)**           | Total rainfall accumulated over the recorded period   | `SUM(Rainfall_mm)`                                                                        |
+| **Total Bikes**                        | Total number of bikes rented                          | `SUM(Rented_Bike_Count)`                                                                  |
+| **Average Bikes/Day**                  | Average number of bikes rented per day                | `AVERAGE(Rented_Bike_Count)`                                                              |
+| **Average Wind Speed (m/s)**           | Mean wind speed recorded during rentals               | `AVERAGE(Wind_speed(m/s))`                                                                |
+| **Total Rentals in Peak Hour**         | Number of rentals during the hour with highest demand | `MAXX(SUMMARIZE(SeoulBike, [Hour], "Total", SUM(SeoulBike[Rented_Bike_Count])), [Total])` |
+
