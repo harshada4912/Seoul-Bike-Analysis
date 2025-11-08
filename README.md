@@ -75,7 +75,6 @@ These slicers make the dashboard fully **interactive** and **user-friendly** for
 - ☀️ Scatter Plot – Total Bikes by Temperature (°C) 
 - 💧Donut Chart –Count of Month by Seasons
 - 🕓 Combo Chart – Rentals & Temperature by Month – Combo Chart
-- 
 
 ---
 ### **Page 2: Analysis**
@@ -83,3 +82,22 @@ These slicers make the dashboard fully **interactive** and **user-friendly** for
 - 📈 Line chart-Average of Rented Bike Count by Hour
 - 📅 Bar chart-Average of Rented Bike Count by Day
 - 📅 Stacked bar chart-Top 10 Busiest Hours by Rentals
+
+  
+---
+
+## 🧠 Insights & Findings  
+
+The Seoul Bike Analysis reveals several interesting patterns and operational insights. The data shows that summer and autumn record the highest bike rentals, while winter has the lowest, mainly due to cold weather and reduced outdoor activity. Peak rental hours occur between 8–9 AM and 5–7 PM, aligning perfectly with office commute times, indicating that the bike-sharing system is heavily used for daily transportation.Temperature plays a significant role in influencing rentals the ideal temperature range of 20–28°C results in maximum usage, as most riders prefer comfortable weather conditions. In contrast, rainy days significantly reduce rentals, showing that adverse weather discourages riders. Similarly, high humidity levels negatively correlate with the rental count, as users tend to avoid uncomfortable riding conditions.
+
+
+## 🛠️ Tools and Technologies Used  
+
+- **Power BI Desktop** – Data cleaning, transformation & visualization  
+- **Microsoft Excel** – Initial review & structure checking  
+- **Power Query Editor** – Data wrangling & custom column creation  
+- **CSV Dataset** – Source file format  
+
+
+
+## 📷 Dashboard
