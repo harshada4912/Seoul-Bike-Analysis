@@ -105,7 +105,7 @@ The Seoul Bike Analysis reveals several interesting patterns and operational ins
 <img width="1312" height="741" alt="Screenshot 2025-11-08 150908" src="https://github.com/user-attachments/assets/1f0f40af-4906-4799-983d-70a45cf98dec" />
 
 - **Figure 2:** Detailed
-  <img width="1305" height="727" alt="Screenshot 2025-11-08 150924" src="https://github.com/user-attachments/assets/e34b3397-cb14-4eb2-a0cd-fc482d5cbcc1" />
+<img width="1305" height="727" alt="Screenshot 2025-11-08 150924" src="https://github.com/user-attachments/assets/e34b3397-cb14-4eb2-a0cd-fc482d5cbcc1" />
 
 ---
 
